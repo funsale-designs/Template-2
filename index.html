@@ -1,13 +1,103 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-  <title>Neat Portfolio</title>
-  <link rel='stylesheet' href='style.css'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Wedding - [Couple's Names]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <h1>Welcome to Neat Portfolio</h1>
-  <p>This is a starter template. Replace this with your content.</p>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="index.html">[Couple's Initials]</a></h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="gallery.html">Guest Photos</a></li>
+                    <li><a href="contact.html">RSVP & Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h2 class="animate__animated animate__fadeInDown">We're Getting Married!</h2>
+            <p class="animate__animated animate__fadeInUp animate__delay-1s">Join us as we celebrate our special day.</p>
+            <a href="about.html" class="btn animate__animated animate__zoomIn animate__delay-2s">Our Story</a>
+        </div>
+    </section>
+
+    <section id="event-details-section" class="section-padding">
+        <div class="container">
+            <h2 class="section-title">The Big Day</h2>
+            <p class="section-description">Mark your calendars! We can't wait to celebrate with you.</p>
+            <div class="event-info-grid">
+                <div class="event-card">
+                    <h3>Date</h3>
+                    <p>Saturday, October 26, 2025</p>
+                </div>
+                <div class="event-card">
+                    <h3>Ceremony</h3>
+                    <p>3:00 PM<br>The Grand Gardens Chapel<br>123 Love Lane, Dreamville</p>
+                </div>
+                <div class="event-card">
+                    <h3>Reception</h3>
+                    <p>6:00 PM<br>The Celebration Hall<br>456 Joy Street, Dreamville</p>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <a href="contact.html" class="btn btn-secondary">RSVP Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery-preview-section" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Share Your Moments</h2>
+            <p class="section-description">We'd love to see your photos from our special day! Upload them to our shared gallery.</p>
+            <div class="gallery-preview">
+                <img src="images/wedding-moment1.jpg" alt="Wedding Moment 1">
+                <img src="images/wedding-moment2.jpg" alt="Wedding Moment 2">
+                <img src="images/wedding-moment3.jpg" alt="Wedding Moment 3">
+            </div>
+            <div class="text-center mt-5">
+                <a href="gallery.html" class="btn">Upload Your Photos</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about-footer">
+                    <h3>[Couple's Names]</h3>
+                    <p>Celebrating love, laughter, and happily ever after.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="gallery.html">Guest Photos</a></li>
+                        <li><a href="contact.html">RSVP & Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section social-media">
+                    <h3>Connect With Us</h3>
+                    <a href="https://api.whatsapp.com/send?phone=1234567890&text=Hello%21%20Congratulations%20on%20your%20wedding%21" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+                    <a href="https://www.instagram.com/yourweddinghashtag/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram social-icon"></i></a>
+                    <a href="https://www.tiktok.com/@yourweddinghashtag/" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok social-icon"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 [Couple's Names]. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
